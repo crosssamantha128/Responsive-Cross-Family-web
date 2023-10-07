@@ -20,18 +20,27 @@ body {
   font-family: var(--heading-font);
   text-align: var(--text-align);
   font-size: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
-.row {
+h2 {
   text-align: var(--text-align);
 }
+
+img {
+  max-width: 100%;
+  border: 5px aliceblue;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px aliceblue;
+}
+
 .family-info {
   text-align: center;
 }
 
 .family-heading {
   font-family: var(--heading-font);
+  text-align: var(--text-align);
   font-size: 50px;
   text-decoration: none;
   color: black;
@@ -39,4 +48,8 @@ body {
 
 .family-heading:hover {
   text-decoration: underline;
+}
+
+.col-md-4 {
+  text-align: var(--text-align);
 }
