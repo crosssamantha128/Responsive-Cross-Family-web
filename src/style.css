@@ -23,8 +23,13 @@ body {
   padding-bottom: 30px;
 }
 
-h2 {
+h2,
+h3 {
   text-align: var(--text-align);
+}
+
+.wedding-date {
+  padding-bottom: 30px;
 }
 
 img {
@@ -32,6 +37,7 @@ img {
   border: 5px aliceblue;
   border-radius: 15px;
   box-shadow: 0 0 10px 5px aliceblue;
+  display: block;
 }
 
 .family-info {
