@@ -28,7 +28,8 @@ h3 {
   text-align: var(--text-align);
 }
 
-.wedding-date {
+.wedding-date,
+.birth-date {
   padding-bottom: 30px;
 }
 
@@ -58,4 +59,33 @@ img {
 
 .col-md-4 {
   text-align: var(--text-align);
+}
+
+.col-md-6 {
+  font-family: "Indie Flower", cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thomas {
+  padding-top: 30px;
+  font-family: "Indie Flower", cursive;
+  text-align: var(--text-align);
+  font-size: 50px;
+  color: green;
+}
+
+.lucy {
+  font-family: "Indie Flower", cursive;
+  text-align: var(--text-align);
+  font-size: 50px;
+  color: blueviolet;
+}
+
+.interesting-facts-lucy {
+  padding-top: 125px;
+}
+
+.interesting-facts-thomas {
+  padding-top: 100px;
 }
