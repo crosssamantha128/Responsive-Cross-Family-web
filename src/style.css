@@ -89,3 +89,10 @@ img {
 .interesting-facts-thomas {
   padding-top: 100px;
 }
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+}
